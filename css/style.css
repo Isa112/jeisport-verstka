@@ -2655,3 +2655,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3a50f', end
 .modal-wrapper {
   overflow: scroll;
 }
+
+
+
+.example {
+  display: block;
+  visibility: hidden;
+}
