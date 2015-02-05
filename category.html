@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Категории</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/slider.css">
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+   <script defer src="js/jquery.flexslider.js"></script>
+   <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<a href="#" data-modal-id="#modal1" class="enter modal-open"><img src="img/social/icon_enter.png" alt="">Вход</a>
+<a href="#" data-modal-id="#modal2" class="ticket modal-open"><img src="img/social/icon_sbs.png" alt="">СБС</a>
+
+<!-- registration / enter -->
+
+<div id="modal1" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-enter">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Вход или регистрация</h3>
+           <form action="">
+              <div class="registration-block">
+                 <span>Регистрация</span>
+                 <input type="text" placeholder="Логин или e-mail">
+                 <input type="text" placeholder="Пароль">
+                 <input type="text" placeholder="Повторите пароль">
+                 <input type="button" value="Регистрация">
+              </div>
+              <div class="enter-block">
+                 <span>Авторизация</span>
+                 <a href="#" class="fc_icon"></a><a href="#" class="tw_icon"></a>
+                 <input type="text" placeholder="Логин или e-mail">
+                 <input type="text" placeholder="Пароль">
+                 <input type="button" value="Войти">
+              </div>
+           </form>
+           <div class="clear"></div>
+           <p>Вся информция остается конфиденциальной и не передается третьим лицам</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal2" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-registration">
+        <div class="modal-title"><a href="#" class="close-modal close-modal2"></a></div>
+        <div class="modal-content">
+           <h3>Получи скидку в спортивные клубы Москвы!</h3>
+            <ul>
+               <li><img src="img/popup_img/img_1.png" alt=""></li>
+               <li><img src="img/popup_img/img_2.png" alt=""></li>
+               <li><img src="img/popup_img/img_3.png" alt=""></li>
+               <li><img src="img/popup_img/Untitled-4.png" alt=""></li>
+            </ul>
+            <p>Устали однообразно курсировать между домом и работой? Решили разбавить этот тандем яркой ноткой, занявшись своим телом и здоровьем, ведь «в здоровом теле – здоровый дух»? А может, вы ищете спортивные секции для детей, поскольку осенью снижается физическая активность, столь необходимая для полноценного развития ребенка? Тогда самое время сесть поудобнее и изучить самую актуальную и подробную информацию про спортивные клубы Москвы! </p>
+            <div class="ticket_block">
+               <div class="cost">
+                  <p>Стоимость 200 руб.</p>
+                  <span>Доставка по Москве 350 рублей.</span>
+               </div>
+               <div class="ticket_form">
+                  <h5>Для получения студ билета спортсмена укажите:</h5>
+                  <input type="radio" name="radio1" value="Оплата при доставке курьеру">
+                  <label for="radio1">Оплата при доставке курьеру</label>
+                  <input type="radio" name="radio2" value="Заберу сам(а) - Оплатить онлайн">
+                  <label for="radio2">Заберу сам(а) - Оплатить онлайн"</label>
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Фамилия">
+                  <input type="text" class="no-margin" placeholder="Отчество">
+                  <input type="text" placeholder="Место учебы">
+                  <input type="text" placeholder="Контакты">
+                  <input type="button" value="Отправить">
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal3" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-questionnaire">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Заявка на подбор клуба</h3>
+           <form action="">
+               <span>Все поля обязательны для заполнения!</span>
+                 <input type="text" placeholder="Имя">
+                 <input type="text" placeholder="Возраст">
+                 <input type="text" placeholder="Пол">
+                 <input type="text" placeholder="Какими видами спорта хотели бы заниматься">
+                 <input type="text" placeholder="Бижайщее метро">
+                 <input type="text" placeholder="Противопоказания от врача">
+                 <input type="text" placeholder="Сколько готовы платить в месяц">
+                 <input type="text" placeholder="Телефон">
+                 <input type="button" value="Отправить">
+           </form>
+           <p>Вся информция остается конфиденциальной и не передается третьим лицам</p>
+        </div>
+    </div>
+</div>
+
+
+
+<header id="header">
+   <div class="header_wrapper">
+      <div class="logo">
+         <a href=""><img src="img/logo.png" height="66" width="193" alt=""></a>
+      </div><!-- logo -->
+      <ul>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#">Единоборства</a></li>
+         <li><a href="#">Активный отдых</a></li>
+         <li><a href="#">Фитнесс клубы</a></li>
+         <li><a href="#">Бассейны</a></li>
+         <li><a href="#">Спортивные игры</a></li>
+         <li><a href="#">Танцы</a></li>
+      </ul><!-- navigation -->
+   </div><!-- header wrapper -->
+</header><!-- header -->
+
+<nav>
+   <div class="wrapper">
+      <ul>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#">О нас</a></li>
+         <li><a href="#">Контакты</a></li>
+         <li><a href="#">Интернет магазин</a></li>
+         <li><a href="#">Реклама</a></li>
+         <li><a href="#">Форум</a></li>
+      </ul>
+      <div class="search">
+         <span>Поиск по сайту</span>
+         <input type="text">
+         <input type="button" value="Искать">
+      </div>
+   </div>
+</nav>
+
+<div class="category-menu">
+  <div class="wrapper">
+    <form action="">
+       <div class="input-text">
+          <span>Выберите категорию</span>
+          <label for="">
+             <i></i>
+             <select id="select-1" placeholder="категория" value="категория">
+                <option value="category">категория 1</option>
+                <option value="category">категория 2</option>
+                <option value="category">категория 3</option>
+                <option value="category">категория 4</option>
+                <option value="category">категория 5</option>
+             </select>
+          </label>
+       </div>
+       <div class="input-text">
+          <span>Выберите подкатегорию</span>
+          <label for="">
+             <i></i>
+             <select id="select-2" placeholder="подкатегория" value="подкатегория">
+                <option value="subcategory">подкатегория 1</option>
+                <option value="subcategory">подкатегория 2</option>
+                <option value="subcategory">подкатегория 3</option>
+                <option value="subcategory">подкатегория 4</option>
+                <option value="subcategory">подкатегория 5</option>
+             </select>
+          </label>
+       </div>
+       <div class="input-text input-text-3">
+          <span>Пропишите станцию метро</span>
+          <label for="">
+             <i></i>
+             <select id="select-3" placeholder="метро" value="метро">
+                <option value="metro">станция метро 1</option>
+                <option value="metro">станция метро 2</option>
+                <option value="metro">станция метро 3</option>
+                <option value="metro">станция метро 4</option>
+                <option value="metro">станция метро 5</option>
+             </select>
+          </label>
+       </div>
+       <div class="input-submit">
+          <input type="submit" value="Применить"/>
+          <input type="submit" class="reset_btn" value="Сбросить"/>
+       </div>
+    </form>
+  </div>
+</div>
+
+
+<div class="content">
+   <div class="wrapper">
+
+<ul class="breadcrumbs">
+   <li><a href="#">Главная</a></li>
+   <li><a href="#">Единоборства</a></li>
+</ul><!-- breadcrumbs -->
+
+<div class="category-content">
+  <h3 class="about_us_title category_title">СЕКЦИИ И КЛУБЫ ЕДИНОБОРСТВ</h3>
+  <div class="categories">
+      <ul>
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Единоборства</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-1.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Активный отдых</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-2.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Фитнес клубы</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-3.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Бассейны</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-4.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Спортивные игры</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-5.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Танцы </h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-6.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Единоборства</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-1.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Активный отдых</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-2.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Фитнес клубы</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-3.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Бассейны</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-4.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Спортивные игры</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-5.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Танцы </h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-6.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Единоборства</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-1.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Активный отдых</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-2.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Фитнес клубы</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-3.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Бассейны</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-4.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Спортивные игры</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-5.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Танцы </h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-6.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Единоборства</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-1.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Активный отдых</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-2.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Фитнес клубы</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-3.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Бассейны</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-4.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Спортивные игры</h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-5.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+         <!-- li -->
+         <li>
+            <div class="visible_block">
+               <h6>Танцы </h6>
+            </div>
+            <div class="hidden_block">
+               <a href="#"><img src="img/category-icons/icon-6.png" alt=""></a>
+            </div>
+         </li>
+         <!-- /li -->
+      </ul>
+ </div><!-- /categories -->
+</div>
+
+<article>
+      <p>Устали однообразно курсировать между домом и работой? Решили разбавить этот тандем яркой ноткой, занявшись своим телом и здоровьем, ведь  «в здоровом теле – здоровый дух»? А может, вы ищете спортивные секции для детей, поскольку осенью снижается физическая активность, столь необходимая  для полноценного развития ребенка? Тогда самое время сесть поудобнее и изучить самую актуальную и подробную информацию про спортивные клубы Москвы!  Здесь вы найдете самые разные спортивные клубы, которые могут быть расположены около вашего места работы или дома, а также спортивные секции, где будут  заниматься ваши дети. На сайте Jeisport.ru представлено огромное разнообразие спортивных клубов Москвы, среди которых вы найдете: Спортклубы и спортивные  школы, в которых проводятся занятия по единоборствам: кикбоксинг, бокс, боевое самбо, муай-тай (тайский бокс) и многие другие, Фитнесклубы – замечательная  возможность для прекрасных дам подтянуть фигуру и всегда выглядеть потрясающе: в нашем каталоге представлено большое разнообразие спортивных секций  по аква-аэробике, пилатесу, фитнесу, в том числе для молодых мам и беременных, а также тренажерные залы, Спортклубы с бассейнами – то, что нужно для полного  избавления от стрессов: в каталоге вы найдете бассейны по своему вкусу – крытые или открытые, Спортивные игры – раздел нашего сайта, который наверняка  заинтересует любителей оздоровиться и насладиться игрой в баскетбол, бадминтон, пляжный или классический волейбол, хоккей, пинг-понг, керлинг, гольф и,  конечно, футбол. К вашим услугам огромный выбор спортклубов, предлагающих посетителям поиграть в эти и другие спортивные игры, Танцы – для вашего удобства  все спортивные танцевальные секции сгруппированы по танцевальным направлениям: латина, go-go, R&B, бальные, клубные, хореография и многие другие;  здесь же вы найдете спортивные танцевальные секции для детей, Активный отдых – то, что нужно для полного расслабления и восстановления сил! В этой категории  любители острых ощущений и не только найдут информацию о парашютном спорте, велотрассах, роллердромах, скалодромах, скейтпарках, паркуре и полетах на  шаре в Москве. С нами выбор спортивного клуба или секции в Москве – сплошное удовольствие!</p>
+</article>
+
+
+   </div><!-- wrapper -->
+</div><!-- content -->
+
+<footer>
+   <div class="header_wrapper">
+    <a href="#header" class="plagination back_to_top_in_footer"></a>
+      <div class="footer_logo">
+         <a href="#"><img src="img/logo.png" alt=""></a>
+         <div class="social_icons">
+            <a href="#" class="vk"></a>
+            <a href="#" class="ok"></a>
+            <a href="#" class="tw"></a>
+            <a href="#" class="fc"></a>
+         </div>
+      </div>
+
+      <div class="footer_navigation">
+         <ul>
+            <li>
+               <h6>Единоборства</h6>
+               <a href="#">Айкидо</a>
+               <a href="#">Баншай</a>
+               <a href="#">Бокс</a>
+               <a href="#">Борьба</a>
+               <a href="#">Дзюдо</a>
+            </li>
+            <li>
+               <h6>Активный отдых</h6>
+               <a href="#">Вертолетные туры</a>
+               <a href="#">Лыжные туры</a>
+               <a href="#">Снегоходные туры</a>
+               <a href="#">Экскурсии</a>
+            </li>
+            <li>
+               <h6>Фитнесс клубы</h6>
+               <a href="#">Аэробика</a>
+               <a href="#">Степ-аэробика</a>
+               <a href="#">Аквааэробика</a>
+               <a href="#">Пилатесс</a>
+            </li>
+            <li>
+               <h6>Бассейны</h6>
+               <a href="#">Переливные</a>
+               <a href="#">Скимерные</a>
+               <a href="#">Крытые</a>
+               <a href="#">Открытые</a>
+            </li>
+            <li>
+               <h6>Спортивные игры</h6>
+               <a href="#">Футбол</a>
+               <a href="#">Баскетбол</a>
+               <a href="#">Теннис</a>
+               <a href="#">Гольф</a>
+            </li>
+            <li>
+               <h6>Танцы</h6>
+               <a href="#">Бальные</a>
+               <a href="#">Восточне</a>
+               <a href="#">Кавказкие</a>
+               <a href="#">HIP HOP</a>
+               <a href="#">Dub step</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="co">
+         <p>© ООО «Жей Спорт» 2014. Все права защищены.</p>
+         <p>ООО «Жей Спорт»</p>
+         <p>119072, г. Москва ул. Домская, дом 14, корпус 2</p>
+      </div>
+
+      <a href="#" class="metrics"></a>
+
+   </div>
+</footer>
+
+</body>
+</html>

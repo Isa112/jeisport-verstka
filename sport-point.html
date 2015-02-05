@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Спортивные точки</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/slider.css">
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+   <script defer src="js/jquery.flexslider.js"></script>
+   <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<a href="#" data-modal-id="#modal1" class="enter modal-open"><img src="img/social/icon_enter.png" alt="">Вход</a>
+<a href="#" data-modal-id="#modal2" class="ticket modal-open"><img src="img/social/icon_sbs.png" alt=""><span>СБС</span><i>Студенческий билет спортсмена</i></a>
+
+
+<!-- registration / enter -->
+
+<div id="modal1" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-enter">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Вход или регистрация</h3>
+           <form action="">
+              <div class="registration-block">
+                 <span>Регистрация</span>
+                 <input type="text" placeholder="Логин или e-mail">
+                 <input type="text" placeholder="Пароль">
+                 <input type="text" placeholder="Повторите пароль">
+                 <input type="button" value="Регистрация">
+              </div>
+              <div class="enter-block">
+                 <span>Авторизация</span>
+                 <a href="#" class="fc_icon"></a><a href="#" class="tw_icon"></a>
+                 <input type="text" placeholder="Логин или e-mail">
+                 <input type="text" placeholder="Пароль">
+                 <input type="button" value="Войти">
+              </div>
+           </form>
+           <div class="clear"></div>
+           <p>Вся информция остается конфиденциальной и не передается третьим лицам</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal2" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-registration">
+        <div class="modal-title"><a href="#" class="close-modal close-modal2"></a></div>
+        <div class="modal-content">
+           <h3>Получи скидку в спортивные клубы Москвы!</h3>
+            <ul>
+               <li><img src="img/popup_img/img_1.png" alt=""></li>
+               <li><img src="img/popup_img/img_2.png" alt=""></li>
+               <li><img src="img/popup_img/img_3.png" alt=""></li>
+               <li><img src="img/popup_img/Untitled-4.png" alt=""></li>
+            </ul>
+            <p>Устали однообразно курсировать между домом и работой? Решили разбавить этот тандем яркой ноткой, занявшись своим телом и здоровьем, ведь «в здоровом теле – здоровый дух»? А может, вы ищете спортивные секции для детей, поскольку осенью снижается физическая активность, столь необходимая для полноценного развития ребенка? Тогда самое время сесть поудобнее и изучить самую актуальную и подробную информацию про спортивные клубы Москвы! </p>
+            <div class="ticket_block">
+               <div class="cost">
+                  <p>Стоимость 200 руб.</p>
+                  <span>Доставка по Москве 350 рублей.</span>
+               </div>
+               <div class="ticket_form">
+                  <h5>Для получения студ билета спортсмена укажите:</h5>
+                  <input type="radio" name="radio1" value="Оплата при доставке курьеру">
+                  <label for="radio1">Оплата при доставке курьеру</label>
+                  <input type="radio" name="radio2" value="Заберу сам(а) - Оплатить онлайн">
+                  <label for="radio2">Заберу сам(а) - Оплатить онлайн"</label>
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Фамилия">
+                  <input type="text" class="no-margin" placeholder="Отчество">
+                  <input type="text" placeholder="Место учебы">
+                  <input type="text" placeholder="Контакты">
+                  <input type="button" value="Отправить">
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal3" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-questionnaire">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Заявка на подбор клуба</h3>
+           <form action="">
+               <span>Все поля обязательны для заполнения!</span>
+                 <input type="text" placeholder="Имя">
+                 <input type="text" placeholder="Возраст">
+                 <input type="text" placeholder="Пол">
+                 <input type="text" placeholder="Какими видами спорта хотели бы заниматься">
+                 <input type="text" placeholder="Бижайщее метро">
+                 <input type="text" placeholder="Противопоказания от врача">
+                 <input type="text" placeholder="Сколько готовы платить в месяц">
+                 <input type="text" placeholder="Телефон">
+                 <input type="button" value="Отправить">
+           </form>
+           <p>Вся информция остается конфиденциальной и не передается третьим лицам</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal5" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-callback">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Введите телефон и имя и наш менеджер  свяжется с Вами!</h3>
+           <form action="">
+            <input type="text" placeholder="Введите имя">
+            <input type="text" placeholder="Введите телефон">
+            <input type="button" value="Отправить">
+           </form>
+           <div class="callback_bottom"></div>
+        </div>
+    </div>
+</div>
+
+<div id="modal6" class="modal-wrapper">
+    <div class="bg"></div>
+    <div class="modal modal-trainer">
+        <div class="modal-title"><a href="#" class="close-modal"></a></div>
+        <div class="modal-content">
+           <h3>Тренер Фитнес-клуба  Мультиспорт в СК Лужники</h3>
+           <div class="trainer_block">
+             <img src="img/popup_trainer_img.jpg" alt="">
+             <h5>Марк Александров Федорович</h5>
+             <div class="clear"></div>
+              <h6>Квалификация:</h6>
+              <span>Тренер- преподователь, Специалист по  физической культуре. Преподователь 1-й категории КМС по Американскому рукопашному  бою. КМС по кикбоксингу КМС по военному 4-х бою</span>
+              <div class="clear"></div>
+              <p>Программа тренировок включает блоки силовых упражнений, кардио-сессии, элементы оздоровительных систем и "ударную" технику БОКСА, КИК-БОКСИНГА, ТАЭКВОН-ДО ИТФ. Простота, доступность, отсутствие глупых и несуразных приемов, работа в МИНИ-ГРУППАХ, и самое главное - ИНДИВИДУАЛЬНЫЙ ПОДХОД, делает занятия в нашем клубе подходящими как для новичков, так и для бывалых! А богатый "боевой" арсенал из наиболее эффективных стилей - позволяет всем желающим участвовать в соревнованиях по самым разным направлениям</p>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+<header id="header">
+   <div class="header_wrapper">
+      <div class="logo">
+         <a href=""><img src="img/logo.png" height="66" width="193" alt=""></a>
+      </div><!-- logo -->
+      <ul>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#">Единоборства</a></li>
+         <li><a href="#">Активный отдых</a></li>
+         <li><a href="#">Фитнесс клубы</a></li>
+         <li><a href="#">Бассейны</a></li>
+         <li><a href="#">Спортивные игры</a></li>
+         <li><a href="#">Танцы</a></li>
+      </ul><!-- navigation -->
+   </div><!-- header wrapper -->
+</header><!-- header -->
+
+<nav>
+   <div class="wrapper">
+      <ul>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#">О нас</a></li>
+         <li><a href="#">Контакты</a></li>
+         <li><a href="#">Интернет магазин</a></li>
+         <li><a href="#">Реклама</a></li>
+         <li><a href="#">Форум</a></li>
+      </ul>
+      <div class="search">
+         <span>Поиск по сайту</span>
+         <input type="text">
+         <input type="button" value="Искать">
+      </div>
+   </div>
+</nav>
+
+<div class="content">
+   <div class="wrapper">
+
+<ul class="breadcrumbs">
+   <li><a href="#">Главная</a></li>
+   <li><a href="#">Единоборства</a></li>
+</ul><!-- breadcrumbs -->
+
+<div class="presentation">
+    <div class="presentation_title">
+      <h5>Фитнес-клуб Мультиспорт в СК Лужники</h5>
+      <a href="#section_1" class="plagination">Отзывы</a>
+      <a href="#section_2" class="plagination">Прайс лист </a>
+      <a href="#section_3" class="plagination">Видео</a>
+      <a href="#section_4" class="plagination">Тренера</a>
+    </div>
+    <div class="presentation_adress">
+      <h6>Москва, ул Шарикопошибнтковская, д17</h6>
+      <p>+7 495 669 56 83</p>
+    </div>
+    <div class="load_more">
+      <a href="">Показать на карте</a>
+    </div>
+</div>
+
+<div class="presentation_content">
+  <div class="left_side">
+      <h4>Описание</h4>
+    <p>Фитнес-клуб «Мультиспорт» – это действительно мультикоктейль, состоящий из всех возможных радостей фитнес-жизни и сопутствующих развлечений. Очень удачное расположение, недалеко от комплекса «Лужники», позволяет задействовать для занятий не только помещения фитнес-клуба, но и все прилегающее пространство. </p>
+    <h6>К услугам гостей клуба:</h6>
+    <ul>
+      <li>— тренажерные залы;</li>
+      <li>— залы групповых программ;</li>
+      <li>— единоборства;</li>
+      <li>— бассейн;</li>
+      <li>— фехтование;</li>
+      <li>— корты;</li>
+      <li>— школа сквош и многое другое!</li>
+    </ul>
+    <p>Кроме набора привычных услуг «Мультиспорт» предлагает и инновационные направления. А именно: занятия в студии FreeMotion, занятия на открытом воздухе Open air, целевые персонифицированные фитнес-программы, спортивная диагностика и фитнес-экспертиза. Здесь созданы все условия для того, чтобы спорт стал любимой частью вашей жизни – программы создаются с учетом только ваших особенностей, а выбор клубных карт порадует даже искушенного спортгурмана.</p>
+    <p>В качестве разогрева до занятий или просто активного отдыха вы  можете сыграть партию настольного тенниса или выбить страйк в  боулинге. Ну а после тренировки добро пожаловать в спа, клубное  кафе или фитобар.</p>
+    <h6>Бассейн</h6>
+    <p>есть бассейн, водные программы</p>
+    <h6>Групповые программы</h6>
+    <p>пилатес, interval, занятия для беременных, лечебная гимнастика, аквааэробика, аэробика, стретчинг, фитнес программы, йога, боевые искусства, танцы</p>
+    <h6>Банный комплекс</h6>
+    <p>финская сауна, турецкая баня (хамам), гидромассаж Прочие услуги фитнес магазин, СПА, детский фитнес, персональные тренировки, бар / ресторан</p>
+  </div>
+  <div class="right_side">
+    <h4>Информация</h4>
+    <span class="metro1">Дубровка 6 мин</span>
+    <span class="metro2">Шаболовская1 мин</span>
+     <p>Адрес: Москва, ул. Шарикоподшипниковская, д. 17</p>
+        <p>Телефон: +7(495) 669 56 83, +7(925) 421 21 28</p>
+        <p>E-mail: support@exkalibur.ru</p>
+        <p>Сайт: exkalibur.ru</p>
+        <p>График работы: 6:00 - 23:00 - Пн-Сб</p>
+        <p>Цена: свыше 60 тыс. руб за год</p>
+      <label for="">Вы владелец?</label>
+      <div class="call_back">
+        <p>Чтобы записаться на пробное посещение или задать вопросы менеджеру клуба закажи обратный звонок</p>
+        <a href="" class="modal-open" data-modal-id="#modal5">Заказать обратный звонок</a>
+      </div>
+      <h4 id="section_2">Прайс лист</h4>
+    <div id="tab">
+
+      <div>
+        <span>за год</span>
+        <div class="tab_content">
+          <span>65 000 руб.</span>
+          <p>Цены, приведённые на сайте, не окончательные, не являются публичной офертой и носят информационный характер. Администрация оставляет за собой право изменять цены. Вы можете уточнить стоимость по телефону.</p>
+        </div>
+      </div>
+
+      <div>
+        <span>за 6 мес.</span>
+        <div class="tab_content">
+          <span>55 000 руб.</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, cupiditate beatae. Tenetur sint voluptate quo!</p>
+        </div>
+      </div>
+
+      <div>
+        <span>за 1 мес.</span>
+        <div class="tab_content">
+          <span>35 000 руб.</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae aliquam dolorem dicta. Aliquid laboriosam enim, commodi quis, id iure. Iure reiciendis ex illo laboriosam deserunt doloribus aut repellat, recusandae maiores iste corrupti accusantium numquam quam illum optio. Vel, est, iure.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<h3 class="block-title presentation_title_h3" id="section_4">Тренеры</h3><!-- title -->
+
+<div class="flexslider">
+   <ul class="slides">
+
+      <li>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+      </li>
+
+      <li>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+         <div class="video_block">
+            <a href="#" data-modal-id="#modal6" class="img_link modal-open"><img src="img/video-img.jpg" alt=""/></a>
+            <a href="#" data-modal-id="#modal6" class="title_link modal-open">Виктор Федоров</a>
+         </div>
+      </li>
+
+   </ul>
+</div><!-- slider -->
+
+<h3 class="block-title presentation_title_h3" id="section_3">Видео</h3><!-- title -->
+
+<div class="youtube">
+  <iframe width="640" height="388" src="https://www.youtube.com/embed/trIbvBq2-jA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h3 class="block-title comments_title" id="section_1">Отзывы</h3><!-- title -->
+<a href="" class="comments_in_presentation">22 Комментария</a>
+<div class="comments">
+  <h6>Дмитрий</h6>
+  <p>В этом виде спорта практически не существует каких-то возрастных ограничений. Вы можете привести в секцию ребенка или прийти сами даже со своими  родителями<a href="">Ответить</a></p>
+</div>
+<div class="comments">
+  <h6>Дмитрий</h6>
+  <p>В этом виде спорта практически не существует каких-то возрастных ограничений. Вы можете привести в секцию ребенка или прийти сами даже со своими  родителями<a href="">Ответить</a></p>
+</div>
+<div class="add_comment">
+  <h6>Добавьте новый комментарий</h6>
+  <p>В этом виде спорта практически не существует каких-то возрастны</p>
+  <input type="button" value="Добавить">
+</div>
+
+   </div><!-- wrapper -->
+</div><!-- content -->
+
+<footer>
+   <div class="header_wrapper">
+    <a href="#header" class="plagination back_to_top_in_footer"></a>
+      <div class="footer_logo">
+         <a href="#"><img src="img/logo.png" alt=""></a>
+         <div class="social_icons">
+            <a href="#" class="vk"></a>
+            <a href="#" class="ok"></a>
+            <a href="#" class="tw"></a>
+            <a href="#" class="fc"></a>
+         </div>
+      </div>
+
+      <div class="footer_navigation">
+         <ul>
+            <li>
+               <h6>Единоборства</h6>
+               <a href="#">Айкидо</a>
+               <a href="#">Баншай</a>
+               <a href="#">Бокс</a>
+               <a href="#">Борьба</a>
+               <a href="#">Дзюдо</a>
+            </li>
+            <li>
+               <h6>Активный отдых</h6>
+               <a href="#">Вертолетные туры</a>
+               <a href="#">Лыжные туры</a>
+               <a href="#">Снегоходные туры</a>
+               <a href="#">Экскурсии</a>
+            </li>
+            <li>
+               <h6>Фитнесс клубы</h6>
+               <a href="#">Аэробика</a>
+               <a href="#">Степ-аэробика</a>
+               <a href="#">Аквааэробика</a>
+               <a href="#">Пилатесс</a>
+            </li>
+            <li>
+               <h6>Бассейны</h6>
+               <a href="#">Переливные</a>
+               <a href="#">Скимерные</a>
+               <a href="#">Крытые</a>
+               <a href="#">Открытые</a>
+            </li>
+            <li>
+               <h6>Спортивные игры</h6>
+               <a href="#">Футбол</a>
+               <a href="#">Баскетбол</a>
+               <a href="#">Теннис</a>
+               <a href="#">Гольф</a>
+            </li>
+            <li>
+               <h6>Танцы</h6>
+               <a href="#">Бальные</a>
+               <a href="#">Восточне</a>
+               <a href="#">Кавказкие</a>
+               <a href="#">HIP HOP</a>
+               <a href="#">Dub step</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="co">
+         <p>© ООО «Жей Спорт» 2014. Все права защищены.</p>
+         <p>ООО «Жей Спорт»</p>
+         <p>119072, г. Москва ул. Домская, дом 14, корпус 2</p>
+      </div>
+
+      <a href="#" class="metrics"></a>
+
+   </div>
+</footer>
+
+</body>
+</html>
